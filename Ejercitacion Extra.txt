@@ -1,0 +1,41 @@
+a) Verdadero. todos los parametros son correctos.
+
+b) Falso. para calcular necesita un char i. pero i=7.3f es float.
+
+c) Verdadero. vender() devuelve una variable float que se estaria asigando a una varbiable tipo entero.
+
+d) Falso. se esta asignando el resultado float de escriba() a un String "x", y ademas (r,j,y) no coinciden con los parametros requeridos por escriba().
+
+e) Falso. el segundo parametro es de tipo float y necesita un dato entero.
+
+f) Falso. escribir() devuelve un dato string y la asigna a una variable float.
+
+g) Verdadero. escriba() devuelve un dato tipo float asignado a una variable float, y los parametros ingresados coinciden con los parametros requeridos.
+
+h) Verdadero. si bien ingresa un dato extra "x" los parametros ingresados coinciden con los requeridos con lo cual el programa va a funcionar.
+
+i) Falso. calcular() esta recibiendo un parametro tipo boolean "false" cuando el parametro necesario para su funcionamiento es de tipo char.
+
+j) Falso. encontrar("false","false") el procedimiento esta recibiendo dos parametros string cuado necesita un String y un boolean.
+
+k) Verdadero. mostrar(j,j,j) los parametros requeridos coinciden con los ingresados.
+
+l) Falso. el metodo mostrar no retorna ningun valor que pueda ser asignado en el float h.
+
+m) Falso. el metodo mostrar no retorna ningun valor que pueda ser asignado en el float h.
+
+n) Verdadero. se hace un llamado al metodo tomar() para que se ejecute.
+
+o) Falso. multiplico() Integer.parseFloat(z) es un error y no transforma a z en entero. para ser usado en el lugar de la variable entera a.
+
+p) Verdadero. el casting transforma la variable char r = "t" en ascii a float. con lo cual esta inresando el dato 116.0 el float j = 3.55f y el dato j - a = 2.55f
+
+q) Verdadero. se asigna a "char r" el casting del resultado "int" del metodo calcular(float h, char r).
+
+r) Verdadero. los parametros para requeridos ejecutar el metodo dividir() coinciden con los valores ingresados.
+
+s) Verdadero. los parametros para requeridos ejecutar el metodo dividir() coinciden con los valores ingresados.
+
+t) Verdaderos. los parametros ingresados cumplen con los datos requeridos multiplico(int a, String c, float b)
+
+multiplicar ((b = 5 // es un int), (x+y = "abcxyz" //son string concatenados "abc"+"xyz"), String.valueOf(j+(int)r)) // el casting de r = 't' lo convierte en el valor 116 sumado j da 119.55f y a eso lo convierte a String "119.55"); 
